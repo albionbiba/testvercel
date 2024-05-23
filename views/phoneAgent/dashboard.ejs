@@ -1,0 +1,18 @@
+<script>
+    async function test () {
+        const data = {
+            "clientName": "Old Client", 
+            "agentName": "agent", 
+            "scheduledDateTime": "2024-05-17T15:00:00.000Z"
+        };
+        await fetch("/phoneAgent/meetingSetup",
+        {   method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(data)
+        })
+        .catch(err => console.log("Error while posting task to server", err))
+        .then((response) => response.json())
+            .then((rs) => console.log(rs));
+    }
+    </script>
+    <a href="javascript:test();">Test API</a>

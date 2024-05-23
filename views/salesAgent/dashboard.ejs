@@ -1,0 +1,19 @@
+<script>
+async function test () {
+    const data = {
+		'meetingId': '662ff8866d042dfe76c30275',
+        'canceled': 'true',
+        'canceledBy': 'client'
+        
+	};
+    await fetch("/salesAgent/logMeetingOutcome",
+    {   method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+    })
+    .catch(err => console.log("Error while posting task to server", err))
+    .then((response) => response.json())
+        .then((rs) => console.log(rs));
+}
+</script>
+<a href="javascript:test();">Test API</a>
