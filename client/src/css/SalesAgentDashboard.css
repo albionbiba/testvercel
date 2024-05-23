@@ -1,0 +1,20 @@
+.sale-big-dash{
+  background: linear-gradient(122.69deg, #01061C 53.82%, rgba(0, 44, 101, 0.76) 77.73%, #01061C 96.54%);
+  padding: 20px;
+  overflow:hidden;
+  height: 100vh;
+}
+
+.sale-dash{
+  background-color: #C1D9FC;
+  overflow:hidden;
+  /* display: flex;
+  flex-direction: row; */
+  flex: 1;
+  /* height: 100vh; */
+  border-radius: 20px;
+}
+.scheduler-container{
+  flex: 6;
+  border-radius: 20px;
+}

@@ -1,0 +1,103 @@
+body {
+    background: #C1D9FC;
+    padding: 20px 35px 20px 35px;
+}
+
+nav {
+    height: 40px;
+    display: flex;
+    gap: 580px;
+    background: linear-gradient(90.32deg, rgba(240, 243, 246, 0.7) 99.73%, rgba(240, 243, 246, 0.322) 19.03%);
+    padding: 10px 10px 10px 10px;
+    font-family: Lexend;
+}
+
+section {
+    display: flex;
+    justify-items: left;
+    gap: 35px;
+    margin-top: 8px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: -580px;
+    color:#000;
+    text-decoration: none;
+    margin-right: 80px;
+}
+
+table {
+    width: 1200px;
+    margin-top: 10px;
+    font-family: Lexend;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    background: #F0F3F6B2;
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+    border-spacing: 12px;
+    margin-bottom: 5px;
+}
+
+th {
+    border-radius: 30px;
+    background-color: #F0F3F6;
+    box-shadow: 10px 10px 10px 0px #FFFFFF40 inset;
+}
+ 
+td {
+    height: 25px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    padding: 10px; /* Add padding to create space between table data */
+    font-size: 18px; /* Adjust font size for table data */
+    border: none;
+    outline: none;
+}
+
+td button{
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 16px;  
+    background: #F0F3F6B2; 
+    border-radius: 10px;
+    
+}
+
+td button:hover {
+    background: 	#E0E0E0; /* Set your desired button hover background color */
+}
+
+.span--text {
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: right;
+    margin-right: -30px;;
+    color: #3E3E3E;
+    max-width: 70px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center items vertically */
+    border-radius: 10px;
+    padding: 10px; 
+    background: #F0F3F6B2;
+ }
+ 
+ .comment span {
+     flex: 1; /* Grow to fill available space */
+     font-size: 18px; /* Adjust font size */
+ }
+ 
+ .comment button {
+     margin-left: auto; /* Push button to the right */
+     color: red;
+     border: none;  
+ }

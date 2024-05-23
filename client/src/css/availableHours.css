@@ -1,0 +1,35 @@
+.c-container{
+  background-color: rgb(192, 196, 199);
+  width: 400px;
+  padding: 30px;
+  border-radius: 20px;
+}
+.time-container{
+  background: linear-gradient(122.69deg, #01061C 53.82%, rgba(0, 44, 101, 0.76) 77.73%, #01061C 96.54%);
+}
+.submit-button {
+  background-color: #3c648600; 
+  color: black;
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* margin-right: 10px; */
+  border-width: 1px;
+  border-color: #01061C;
+}
+
+.submit-button:hover {
+  background-color: #01061C;
+  color: white;
+}
+
+.submit-button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}

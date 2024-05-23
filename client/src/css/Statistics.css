@@ -1,0 +1,28 @@
+.stat-container{
+  background: linear-gradient(122.69deg, #01061C 53.82%, rgba(0, 44, 101, 0.76) 77.73%, #01061C 96.54%);
+  /* width: 100vw;*/
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.reserved-calls{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 5px;
+  background: linear-gradient(90.32deg, #cddef0 99.73%, rgba(240, 243, 246, 0.46) 19.03%);
+}
+.sub-container{
+  display: flex;
+  background: #C1D9FC;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+  flex:1;
+  flex-direction: column;
+}
+.sub-sub-container{
+  margin-top: 30px;
+  background: linear-gradient(90.32deg, #dde9f5 99.73%, rgba(240, 243, 246, 0.46) 19.03%);
+  border-radius: 30px;
+}

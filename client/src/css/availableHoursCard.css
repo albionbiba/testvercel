@@ -1,0 +1,44 @@
+.card-container{
+  width:300px;
+  
+  row-gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.clock-img{
+  width: 30px;
+  height: 30px;
+}
+
+.day{
+  flex:1
+}
+.d{
+  flex:2;
+  border-width: 1px;
+}
+
+
+.custom-popup {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.custom-popup .swal2-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.custom-popup .swal2-html-container {
+  font-size: 1rem;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #ed9c23;
+  color: white;
+}

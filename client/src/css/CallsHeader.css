@@ -1,0 +1,28 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text-blue-800 {
+  color: #0654ba; 
+  text-decoration: none;
+  padding: 0 10px;
+  position: relative; 
+}
+
+.text-blue-800::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px; 
+  background-color: #0654ba;
+  transition: width 0.3s ease;
+}
+
+.text-blue-800:hover::after {
+  width: 100%;
+}
