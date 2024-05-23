@@ -1,0 +1,50 @@
+{
+  "name": "water-filter-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "build": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@devexpress/dx-react-core": "^4.0.8",
+    "@devexpress/dx-react-scheduler": "^4.0.8",
+    "@devexpress/dx-react-scheduler-material-ui": "^4.0.8",
+    "@types/jest": "^29.5.12",
+    "@types/react-dom": "^18.2.25",
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.11",
+    "devextreme-react": "^23.2.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "express-session": "^1.18.0",
+    "moment": "^2.30.1",
+    "mongoose": "^8.2.2",
+    "mongoose-findorcreate": "^4.0.0",
+    "next": "14.1.4",
+    "nodemon": "^3.1.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^8.0.0",
+    "react": "^18",
+    "react-date-picker": "^10.6.0",
+    "react-dom": "^18",
+    "reactjs-popup": "^2.0.6",
+    "styled-components": "^6.1.11"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "@types/react": "18.2.79",
+    "dotenv": "^16.4.5",
+    "typescript": "5.4.5"
+  }
+}
